@@ -4,6 +4,7 @@ const score = document.getElementById("score");
 
 let player1 = 0
 
+
 roll.addEventListener("click", () => {
     roll.innerHTML = "Roll"
     let player1Roll = Math.ceil(Math.random()*6);
