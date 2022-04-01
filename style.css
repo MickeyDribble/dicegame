@@ -54,7 +54,8 @@ header {
 
 }
 
-#roll {
+#roll,
+#musicBtn {
     font-family: 'Holtwood One SC', serif;
     width:200px;
     height:40px;

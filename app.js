@@ -1,11 +1,13 @@
 const dice = document.getElementById("dice");
 const roll = document.getElementById("roll");
 const score = document.getElementById("score");
+const musicBtn = document.getElementById("musicBtn");
 const diceRoll = new Audio("rollingdice.wav");
+const music = new Audio("bkmusic.mp3");
 
-window.onload =() =>{
-    document.getElementById("mainTheme").play();
-}
+musicBtn.addEventListener("click", () =>{
+    music.play()
+})
 
 let player1 = 0
 
